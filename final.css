@@ -161,3 +161,34 @@ p{
     float:right;
     
 }
+
+
+.typewriter h2 {
+    font-size: 80px;
+    font-family: monospace;
+    letter-spacing: .17em;
+    margin: 0 auto;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .17em solid rgb(60, 178, 184);
+    animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+    to {
+      width: 100%
+    }
+  }
+  
+  @keyframes blinking-cursor {
+    from,
+    to {
+      border-color: transparent
+    }
+    50% {
+      border-color:#73c5f1;
+    }
+  }
