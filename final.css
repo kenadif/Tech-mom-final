@@ -9,8 +9,7 @@
     font-size: 40px;
     text-transform: uppercase;
     font-family: cursive;
-
-  
+    font-size: 100px;
 
 }
 
@@ -28,7 +27,7 @@
     font: menu;
     font-family: cursive;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 1px;
     box-sizing: border-box;
     display: inline-block;
@@ -60,8 +59,6 @@
 
 body{
     background-color: #dae7e9;
-    
-    
     
 }
 
@@ -131,11 +128,18 @@ h1{
     
 }
 
+.wedding{
+    width:390px;
+    height:auto;
+    clip-path: circle();
+}
+
 p{
     font-size:larger;
     background-color: #53a8b6;
     margin:2rem;
     padding:2rem;
+    
 }
 
 .contact{
@@ -159,9 +163,13 @@ p{
     background-color: #53a8b6;
     border-radius: 4rem;
     float:right;
-    
-}
+    font-size: larger;
+    margin:7rem;
+    padding: 3rem;
 
+    
+
+}
 
 .typewriter h2 {
     font-size: 80px;
