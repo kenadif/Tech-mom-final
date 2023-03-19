@@ -205,3 +205,20 @@ p{
     width:600px;
     
   }
+
+
+  .skills{
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+    width: 40rem;
+    height:10rem;
+  }
+
+  .skills div{
+    padding:1rem;
+    background-color: #53a8b6;
+    width:31rem;
+    text-align: left;
+    text-transform: uppercase;
+  }
