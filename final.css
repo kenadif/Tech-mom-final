@@ -51,10 +51,18 @@
     text-align: left;
 }
 
+.rigby{
+    text-decoration: underline;
+}
+
 .tech{
     display:inline;
     font-size: 20px;
     text-align: left;
+}
+
+.web{
+    text-decoration:underline;
 }
 
 body{
@@ -125,6 +133,7 @@ h1{
     width:390px;
     height:auto;
     clip-path:circle();
+    z-index: -1;
     
 }
 
@@ -132,6 +141,7 @@ h1{
     width:390px;
     height:auto;
     clip-path: circle();
+    z-index: -1;
 }
 
 p{
@@ -211,7 +221,7 @@ p{
     display:flex;
     justify-content: space-between;
     margin:auto;
-    width: 40rem;
+    width: 60rem;
     height:10rem;
   }
 
@@ -219,6 +229,6 @@ p{
     padding:1rem;
     background-color: #53a8b6;
     width:31rem;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
   }
