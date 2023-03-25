@@ -154,13 +154,6 @@ p{
     
 }
 
-.contact{
-    background-color: #53a8b6;
-    border-radius: 4rem;
-    margin:2rem;
-    padding:5rem;
-}
-
 .july{
     
     margin:10rem;
@@ -248,3 +241,7 @@ p{
     text-transform: uppercase;
   }
 
+.forms{
+    display: flex;
+    float:center;
+}
